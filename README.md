@@ -35,7 +35,7 @@ Setting up Fabrik on your local machine is really easy. You can setup Fabrik usi
     docker-compose up --build
     ```
 
-### Setup Authenticaton for Docker Environment
+### Setup Authentication for Docker Environment
 1. Go to Github Developer Applications and create a new application. [here](https://github.com/settings/developers)
 
 2. For local deployments the following is what should be used in the options:
@@ -163,7 +163,7 @@ celery -A ide worker --app=ide.celery_app  --loglevel=info
 ```
 
 
-### Setup Authenticaton for Virtual Environment
+### Setup Authentication for Virtual Environment
 1. Go to Github Developer Applications and create a new application. [here](https://github.com/settings/developers)
 
 2. For local deployments the following is what should be used in the options:
@@ -198,7 +198,7 @@ celery -A ide worker --app=ide.celery_app  --loglevel=info
 
     * Add the sites available to the right side, so github is allowed for the current site.
 
-    * Copy and paste your ``` Client ID ``` and ``` Secret Key ``` into the apppropriate fields and Save.
+    * Copy and paste your ``` Client ID ``` and ``` Secret Key ``` into the appropriate fields and Save.
 
 9. Go to ``` Sites ``` tab and update the ``` Domain name ``` to ``` localhost:8000 ```.
 
